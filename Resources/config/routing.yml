@@ -1,0 +1,4 @@
+app_page_show:
+    path:     /{slug}
+    defaults: { _controller: 'PuzzleAppPageBundle:Page:show' }
+    methods:  [GET]

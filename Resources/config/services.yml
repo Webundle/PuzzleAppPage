@@ -1,0 +1,4 @@
+services:
+#    puzzle_app_page.example:
+#        class: Puzzle\App\PageBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
