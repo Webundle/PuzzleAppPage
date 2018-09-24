@@ -28,11 +28,10 @@
 		"webundle/puzzle-admin-page" : "^1.0"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"Webundle\\Puzzle\\App\\PageBundle" : ""
+		"psr-4" : {
+			"Puzzle\\App\\PageBundle\\" : ""
 		}
 	},
-	"target-dir" : "Webundle/Puzzle/App/PageBundle",
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0-dev"
